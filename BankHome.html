@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RFF BANK</title>
+    <link rel="stylesheet" href="css\design.css">
+    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+    <script src="scripts/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+<header>
+<nav>
+<div class = "mainmenu">
+<img src="images/banklogo.jpg" width="20%" class="circle">
+<a href="BankHome.html">Home</a>
+<a href="AboutUs.html">About Us</a>
+<a href="CreditRates.html">CreditRates</a>
+<a href="ContactUs.html">Contact Us</a>
+<a href="PrivacyPolicy.html">Privacy Policy</a>
+</div>
+</nav>
+</header>
+<main>
+<section>
+<div><b>WELCOME TO RFF BANK!</b></div>
+<p><i>All your banking needs in one place</i></p><br>
+<form action="#"  method="post">
+    <div align="center">
+    <h1>Bank Credit Form</h1>
+    </br> </br>
+    Enter your Name:
+    <input type="text" name="Name" size=35 maxlength=25 value="">
+    </br></br>
+    Enter your ID Number:
+    <input type="text" name="ID" size=35 maxlength=11 value="">
+    </br> </br>
+    What purpose do you need credit for?
+    </br></br>
+    <label>
+        <input name="group1" type="radio" checked />
+        <span>Education</span>
+      </label>
+      <label>
+        <input name="group1" type="radio"/>
+        <span>Travel</span>
+      </label>
+      <label>
+        <input name="group1" type="radio" />
+        <span>Commerce</span>
+      </label>
+      <label>
+        <input name="group1" type="radio" />
+        <span>Real Estate</span>
+      </label>
+    </br></br>
+    Which of these requirements do you fulfill?
+    </br></br>
+    <label>
+        <input type="checkbox" name="Guarantor" />
+        <span> Loan Guarantor </span>
+      </label>
+    <label>
+        <input type="checkbox" name="Credit" />
+        <span> Good Credit History </span>
+      </label>
+    <label>
+        <input type="checkbox" name="Mortgage" />
+        <span> Asset for Mortgage </span>
+      </label>
+    </br></br>
+    <select class="browser-default">
+        <option value="" disabled selected> What type of payment plan do you want?</option>
+        <option value="1">Standard</option>
+        <option value="2">Short</option>
+        <option value="3">Long</option>
+      </select>
+    </select>
+    </br></br>
+    <button class="btn waves-effect waves-light" type="submit" name="action">Submit </button>
+    </form>
+</section>
+</main>
+</body>
